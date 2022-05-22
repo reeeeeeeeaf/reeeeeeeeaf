@@ -1,0 +1,56 @@
+.hidden {
+  display: none;
+}
+#bgImage {
+  position: absolute;
+  left: 0;
+  top: 0;
+  max-width: 100%;
+  max-height: 1880px;
+  z-index: -1;
+  filter: brightness(30%);
+}
+
+#weather {
+  position: fixed;
+  top: 20px;
+  right: 36px;
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+#clock {
+  text-align: center;
+  /* height: 250px; */
+  font-size: 8rem;
+  color: white;
+  margin-bottom: -20px;
+}
+
+#greeting {
+  text-align: center;
+  color: white;
+}
+
+#login-form {
+  padding-top: 100px;
+  margin-bottom: -30px;
+  text-align: center;
+  color: white;
+}
+
+#todo-form {
+  text-align: center;
+  color: white;
+}
+
+#todo-list {
+  text-align: center;
+  color: white;
+}
+
+#quote {
+  text-align: center;
+  color: white;
+}
